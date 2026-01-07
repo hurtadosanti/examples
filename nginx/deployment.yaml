@@ -22,6 +22,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: ghcr.io/orise-infra/container-catalog/nginx:1.29-alpine
+          image: nginx:1.29-alpine
           ports:
             - containerPort: 80
